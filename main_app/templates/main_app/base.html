@@ -1,0 +1,432 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Python.Pro - 30.11.2022 </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'main_app/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'main_app/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{%  static 'main_app/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{%  static 'main_app/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+
+  <link href="{%  static 'main_app/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{%  static 'main_app/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{%  static 'main_app/css/main.css' %}" rel="stylesheet">
+    <!-- Подключение библиотеки jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.js" integrity="sha256-dWvV84T6BhzO4vG6gWhsWVKVoa4lVmLnpBOZh/CAHU4=" crossorigin="anonymous"></script>
+    <!-- Подключение jQuery плагина Masked Input -->
+    <script src="{% static 'main_app/js/mask.js'%}"></script>
+       <script>
+    //Код jQuery, установливающий маску для ввода телефона элементу input
+    //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+
+    $(function(){
+         $("#phone").mask("+38(999) 999-9999")
+    $("#date").mask("99 / 99 / 9999");
+    $("#time").mask("99:99");
+
+      });
+
+    </script>
+</head>
+
+<body>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="{% url 'home' %}" class="logo d-flex align-items-center me-auto me-lg-0">
+
+        <h1>Смачна Їжа<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Головна</a></li>
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#events">Події</a></li>
+          <li><a href="#chefs">Кухарі</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <a class="btn-book-a-table" href="#book-a-table">Замовити столик</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Насолоджуйтесь здоровою<br>смачною їжею</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Але печалі тих, хто хвалить. І тому це приведе до щастя. Блаженні ті, хто шукає Його.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#book-a-table" class="btn-book-a-table">Замовити столик</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Дивится відео</span></a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="{% static 'main_app/img/hero-img.png' %}" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Про нас</h2>
+          <p>Читати <span>Про нас</span></p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-7 position-relative about-img" style="background-image: url({% static 'main_app/img/about.jpg' %}) ;" data-aos="fade-up" data-aos-delay="150">
+            <div class="call-us position-absolute">
+              <h4>Замовити столик</h4>
+              <p>+38 5589 55488 55</p>
+            </div>
+          </div>
+          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Вкусна їжа
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> Чисто.</li>
+                <li><i class="bi bi-check2-all"></i> Вкусно.</li>
+                <li><i class="bi bi-check2-all"></i> Вдячні</li>
+              </ul>
+              <p>
+               Гарні дівчата та жива музика і смачна їжа з вишуканими напоями за великі гроші, що може бути краще?
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="{% static '/main_app/img/about-2.jpg' %}" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="2302" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Клієнтів</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="5201" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Замовлень</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="14503" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Часів роботи</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Співробітників</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Stats Counter Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Наше Меню</h2>
+          <p>Знайди свою <span> улюблену страву</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+             {% block mainmenu %}
+             {% endblock mainmenu %}
+        </ul>
+      <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+          {% block menu_tabs %}
+          {% endblock menu_tabs %}
+      </div>
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Події</h2>
+          <p>Це <span>ТВОЯ</span> можливість !</p>
+        </div>
+
+        <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            {% block events %}
+            {% endblock events %}
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Наші творці</h2>
+          <p>Вони <span>на справді люблять</span> ГОТУВАТИ</p>
+        </div>
+
+        <div class="row gy-4">
+
+          {% block chief %}
+            {% endblock chief %}
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Замовити столик</h2>
+          <p>Замовити <span>Ваш</span> столик</p>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-4 reservation-img" style="background-image: url({%  static 'main_app/img/reservation.jpg'%});" data-aos="zoom-out" data-aos-delay="200"></div>
+
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+
+            <form action="{% url 'home' %}#book-a-table" method="post" role="form" class="php-email-form" >
+                {% csrf_token %}
+               <div class="row gy-4">
+                    {% for item in  form%}
+                        {% if forloop.last %}
+                          <div class="form-group mt-3">
+                            {{ item }}
+                            <div >{{ item.errors }}</div>
+                          </div>
+                          <div class="text-center"><button type="submit">Замовити столик</button></div>
+                        {% else %}
+                            <div class="col-lg-4 col-md-6">
+                                {{ item }}
+                                <div >{{ item.errors }}</div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </form>
+
+          </div><!-- End Reservation Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- ======= Gallery Section ======= -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Контакти</h2>
+          <p>Треба допомога? <span>дзвони 911</span></p>
+        </div>
+
+        <div class="mb-3">
+
+          <iframe style="border:0; width: 100%; height: 350px;"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4484172031!2d30.5226260763692!3d50.45137397159242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce505b8be8cd%3A0x6fbde9b021ab61dd!2z0JrRgNC10YnQsNGC0LjQug!5e0!3m2!1sru!2sua!4v1682522155394!5m2!1sru!2sua"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>Наша адреса:</h3>
+                <p>вул. Шевченко буд. 10, кв. 13. кімната № 3</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Напишіть нам</h3>
+                <p>contact@example.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Подзвоніть нам</h3>
+                <p>+38 5589 55488 55</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Часи коли ми вам раді:</h3>
+                <div><strong>Mon-Sat:</strong> 11AM - 23PM;
+                  <strong>Sunday:</strong> Closed
+                </div>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Адреса</h4>
+            <p>
+              вул. Шевченко <br>
+              буд. 10, кв. 13. кімната № 3<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Замовлення</h4>
+            <p>
+              <strong>Телефон:</strong> +38 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Часи коли ми вам раді:</h4>
+            <p>
+              <strong>ПН-СБ: 11:00</strong> - 23:00<br>
+              Неділя: відсипаємось
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Для співробітників:</h4>
+           <h4><a href="{% url 'register' %}" > Sign in</a></h4>
+           <h4><a href="{% url 'login' %}" > Log in</a></h4>
+           <h4><a href="/admin" > Admin</a></h4>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Смачна Їжа</span></strong>. Ми є, були і .....
+      </div>
+      <div class="credits">
+
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+  <script src="{%  static 'main_app/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <script src="{%  static 'main_app/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{%  static 'main_app/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{%  static 'main_app/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{%  static 'main_app/vendor/php-email-form/validate1.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{%  static 'main_app/js/main.js' %}"></script>
+
+</body>
+
+</html>

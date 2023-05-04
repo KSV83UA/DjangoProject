@@ -1,0 +1,1790 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-04-18T10:36:41.674Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Завтрак",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-04-18T10:37:25.491Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Сніданок",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Descript\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-04-18T10:39:14.636Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Закуска",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Descript\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-04-18T10:40:57.859Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Сніданок",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-04-18T10:43:46.100Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Обід",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-04-18T10:44:21.398Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Вечеря",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-04-18T10:44:29.006Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Закуска",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-04-18T10:44:33.260Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Обід",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Positions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-04-18T10:44:47.097Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Обід",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-04-18T10:44:50.784Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Закуска",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-04-18T10:44:56.021Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Сніданок",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Positions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-04-18T10:44:58.908Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Обід",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Positions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-04-18T10:45:04.735Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Вечеря",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Positions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-04-18T10:52:54.203Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Сніданок",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tab target\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-04-18T10:52:57.127Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Сніданок",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-04-18T10:53:37.421Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Сніданок",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-04-18T10:53:41.292Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Закуска",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-04-18T10:53:45.809Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Сніданок",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tab target\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-04-18T10:53:59.048Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Закуска",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tab target\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-04-18T10:54:07.566Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Обід",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tab target\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-04-18T10:54:17.921Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Вечеря",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tab target\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-04-18T11:37:18.888Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Вечеря",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tab target\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-04-18T11:37:22.004Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Обід",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tab target\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-04-18T11:37:25.039Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Сніданок",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tab target\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-04-18T11:37:28.800Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Закуска",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tab target\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-04-18T11:37:30.686Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Сніданок",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-04-18T11:49:08.517Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Борщ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-04-19T07:06:18.793Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Борщ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-04-19T08:01:59.880Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Солянка",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-04-19T08:44:11.754Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Борщ",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-04-25T12:27:23.115Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Magnam Tiste",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-04-25T12:29:31.649Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Сало",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-04-25T16:39:18.477Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Events object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-04-25T16:39:27.259Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Events object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-04-25T16:41:53.629Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Супи з риби - це ще те збочення!",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-04-25T16:50:30.151Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Супи з риби - це ще те збочення!",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-04-25T17:02:08.687Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Василь Петрович Махоров",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-04-25T17:03:08.636Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Чорнокнижник Андрій Арменович",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-04-25T17:03:56.244Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Олена Гарна Васильївна",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2023-04-25T17:11:33.195Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Олена Гарна Васильївна",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\", \"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2023-04-25T17:11:40.775Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Василь Петрович Махоров",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2023-04-25T17:11:45.308Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Чорнокнижник Андрій Арменович",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2023-04-25T17:19:19.796Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Galery object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2023-04-25T17:19:29.820Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Galery object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2023-04-25T17:19:38.031Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Galery object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2023-04-25T17:19:46.219Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Galery object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2023-04-25T17:19:54.341Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Galery object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2023-04-25T17:20:15.204Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Galery object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2023-04-25T17:20:24.669Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Galery object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2023-04-25T17:20:32.937Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Galery object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2023-04-26T11:53:43.187Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Нове замовлення",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2023-04-26T11:53:54.690Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Прийняте",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2023-04-26T11:54:09.814Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Завершене успішно",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2023-04-26T11:54:17.113Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "4",
+        "object_repr": "Відмова",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2023-04-26T11:54:22.586Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "5",
+        "object_repr": "Не прийшли",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2023-05-03T12:07:00.910Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "aad",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2023-05-03T12:07:17.246Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Сергій",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0437\\u0430\\u043c\\u043e\\u0432\\u043b\\u0435\\u043d\\u043d\\u044f\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2023-05-03T13:20:19.068Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Солянка",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2023-05-03T13:20:26.802Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Борщ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add menu",
+        "content_type": 7,
+        "codename": "add_menu"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change menu",
+        "content_type": 7,
+        "codename": "change_menu"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete menu",
+        "content_type": 7,
+        "codename": "delete_menu"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view menu",
+        "content_type": 7,
+        "codename": "view_menu"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add dishes",
+        "content_type": 8,
+        "codename": "add_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change dishes",
+        "content_type": 8,
+        "codename": "change_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete dishes",
+        "content_type": 8,
+        "codename": "delete_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view dishes",
+        "content_type": 8,
+        "codename": "view_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add ('Акції',)",
+        "content_type": 9,
+        "codename": "add_sale"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change ('Акції',)",
+        "content_type": 9,
+        "codename": "change_sale"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete ('Акції',)",
+        "content_type": 9,
+        "codename": "delete_sale"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view ('Акції',)",
+        "content_type": 9,
+        "codename": "view_sale"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Клиєнт",
+        "content_type": 10,
+        "codename": "add_clients"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Клиєнт",
+        "content_type": 10,
+        "codename": "change_clients"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Клиєнт",
+        "content_type": 10,
+        "codename": "delete_clients"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Клиєнт",
+        "content_type": 10,
+        "codename": "view_clients"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add galery",
+        "content_type": 11,
+        "codename": "add_galery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change galery",
+        "content_type": 11,
+        "codename": "change_galery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete galery",
+        "content_type": 11,
+        "codename": "delete_galery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view galery",
+        "content_type": 11,
+        "codename": "view_galery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add Подія",
+        "content_type": 12,
+        "codename": "add_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change Подія",
+        "content_type": 12,
+        "codename": "change_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete Подія",
+        "content_type": 12,
+        "codename": "delete_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view Подія",
+        "content_type": 12,
+        "codename": "view_events"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add Повар",
+        "content_type": 13,
+        "codename": "add_chief"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change Повар",
+        "content_type": 13,
+        "codename": "change_chief"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete Повар",
+        "content_type": 13,
+        "codename": "delete_chief"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view Повар",
+        "content_type": 13,
+        "codename": "view_chief"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add status",
+        "content_type": 14,
+        "codename": "add_status"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change status",
+        "content_type": 14,
+        "codename": "change_status"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete status",
+        "content_type": 14,
+        "codename": "delete_status"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view status",
+        "content_type": 14,
+        "codename": "view_status"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$Pa79vrytndiluHQr101AkY$v/ndOo3QfUHjvNRsAaRVkGUjhmzGRSDTAkZwG9E3yMw=",
+        "last_login": "2023-05-03T12:53:02.206Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-04-17T09:33:51.346Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$H2Dr76DoOtKHZm03nerGzj$pMr4hgfuLdFoWRndWKZ/bSpXKwB/bYmtb7LXMomx7fc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "swift",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-04-27T12:57:18.952Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$NBBlqqdpRXmOyERx8TzH9D$mD7sr86GRAOceuoMGiKDFSndTWrjF88GK3zu2OZqyBA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "kremsmile",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-02T06:56:07.001Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$4XKpGWNHeY8xoCBON0NDLg$Zz1WYxugsWr0BwwW1e+WFcDr9lg3fiWjFJpqkDe0ldY=",
+        "last_login": "2023-05-03T07:31:56.780Z",
+        "is_superuser": false,
+        "username": "ksv83ua",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-03T07:31:42.915Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "main_app",
+        "model": "menu"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "main_app",
+        "model": "dishes"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "main_app",
+        "model": "sale"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "main_app",
+        "model": "clients"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "main_app",
+        "model": "galery"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "main_app",
+        "model": "events"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "main_app",
+        "model": "chief"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "main_app",
+        "model": "status"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3tp8m37yaqczino4ba5gpnqzjtfk88qt",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUVx66QKIztniBzbJQWUSk07Ie4OlTrA-t97_2USbWtJW9MlTWLOBszpd8vED607kDvV22x5rusyZbsr9qDNXmfR5-Vw_w4KtfKthxHBSfShBx6RSZg6yYFVGJzXHtFHxZ5yhEwxdxGRgmNSgAEpinl_APtLOHo:1poLJA:gTMNyrS1YmRCW4zNAlDkKv82RK1UtQ-Ww0sxZkQxwJQ",
+        "expire_date": "2023-05-01T09:38:00.492Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xlo6lb9b4sw1dgdwu7iafa53f71mbt7p",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUVx66QKIztniBzbJQWUSk07Ie4OlTrA-t97_2USbWtJW9MlTWLOBszpd8vED607kDvV22x5rusyZbsr9qDNXmfR5-Vw_w4KtfKthxHBSfShBx6RSZg6yYFVGJzXHtFHxZ5yhEwxdxGRgmNSgAEpinl_APtLOHo:1puByg:EFvT5vRAOapEwJzpngTjvBIvCASYNSWtSUVtxbh4J9g",
+        "expire_date": "2023-05-17T12:53:02.215Z"
+    }
+},
+{
+    "model": "main_app.menu",
+    "pk": 1,
+    "fields": {
+        "title": "Закуска",
+        "tab_target": "menu-starters",
+        "content": "Закуска",
+        "is_visible": true,
+        "time_created": "2023-04-18T10:36:41.672Z",
+        "time_update": "2023-04-18T11:37:28.798Z",
+        "positions": 0
+    }
+},
+{
+    "model": "main_app.menu",
+    "pk": 2,
+    "fields": {
+        "title": "Сніданок",
+        "tab_target": "menu-breakfast",
+        "content": "Сніданок",
+        "is_visible": true,
+        "time_created": "2023-04-18T10:40:57.857Z",
+        "time_update": "2023-04-18T11:37:30.685Z",
+        "positions": 1
+    }
+},
+{
+    "model": "main_app.menu",
+    "pk": 3,
+    "fields": {
+        "title": "Обід",
+        "tab_target": "menu-lunch",
+        "content": "",
+        "is_visible": true,
+        "time_created": "2023-04-18T10:43:46.098Z",
+        "time_update": "2023-04-18T11:37:22.001Z",
+        "positions": 2
+    }
+},
+{
+    "model": "main_app.menu",
+    "pk": 4,
+    "fields": {
+        "title": "Вечеря",
+        "tab_target": "menu-dinner",
+        "content": "",
+        "is_visible": true,
+        "time_created": "2023-04-18T10:44:21.395Z",
+        "time_update": "2023-04-18T11:37:18.885Z",
+        "positions": 3
+    }
+},
+{
+    "model": "main_app.dishes",
+    "pk": 1,
+    "fields": {
+        "title": "Борщ",
+        "content": "Борщ\r\nСостав:\r\nВода, буряк, цибуля и багато мьяса",
+        "photo": "menu-item-5.png",
+        "price": 150.0,
+        "special": false,
+        "discount": 0,
+        "is_visible": true,
+        "menu": [
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "main_app.dishes",
+    "pk": 2,
+    "fields": {
+        "title": "Солянка",
+        "content": "Огірки, томати, ковбаски и інше",
+        "photo": "menu-item-4.png",
+        "price": 100.0,
+        "special": false,
+        "discount": 0,
+        "is_visible": true,
+        "menu": [
+            3
+        ]
+    }
+},
+{
+    "model": "main_app.dishes",
+    "pk": 3,
+    "fields": {
+        "title": "Magnam Tiste",
+        "content": "Курка, соус, трохи тміну та любові",
+        "photo": "menu-item-1.png",
+        "price": 250.0,
+        "special": false,
+        "discount": 0,
+        "is_visible": true,
+        "menu": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "main_app.dishes",
+    "pk": 4,
+    "fields": {
+        "title": "Сало",
+        "content": "Сало воно і в африці сало....",
+        "photo": "oblozha_1505391772-640x320.jpg",
+        "price": 25.0,
+        "special": false,
+        "discount": 0,
+        "is_visible": true,
+        "menu": [
+            1
+        ]
+    }
+},
+{
+    "model": "main_app.status",
+    "pk": 1,
+    "fields": {
+        "title": "Нове замовлення"
+    }
+},
+{
+    "model": "main_app.status",
+    "pk": 2,
+    "fields": {
+        "title": "Прийняте"
+    }
+},
+{
+    "model": "main_app.status",
+    "pk": 3,
+    "fields": {
+        "title": "Завершене успішно"
+    }
+},
+{
+    "model": "main_app.status",
+    "pk": 4,
+    "fields": {
+        "title": "Відмова"
+    }
+},
+{
+    "model": "main_app.status",
+    "pk": 5,
+    "fields": {
+        "title": "Не прийшли"
+    }
+},
+{
+    "model": "main_app.clients",
+    "pk": 1,
+    "fields": {
+        "name": "Сергій",
+        "e_mail": "mail@admin.com",
+        "phone": "7894565545",
+        "date": "2023-04-13",
+        "time": "13:50:00",
+        "message": "ytvf",
+        "count_of_people": 2,
+        "status": 2
+    }
+},
+{
+    "model": "main_app.clients",
+    "pk": 2,
+    "fields": {
+        "name": "Сергій",
+        "e_mail": "asd@gmal.com",
+        "phone": "123",
+        "date": "2023-04-13",
+        "time": "12:15:00",
+        "message": "12",
+        "count_of_people": 15,
+        "status": 3
+    }
+},
+{
+    "model": "main_app.clients",
+    "pk": 3,
+    "fields": {
+        "name": "aad",
+        "e_mail": "asd@asda.com",
+        "phone": "23234",
+        "date": "2023-02-23",
+        "time": "12:52:00",
+        "message": "awd",
+        "count_of_people": 2,
+        "status": 2
+    }
+},
+{
+    "model": "main_app.galery",
+    "pk": 1,
+    "fields": {
+        "image": "gallery-2.jpg",
+        "text": "1",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.galery",
+    "pk": 2,
+    "fields": {
+        "image": "gallery-2_EFzN1B3.jpg",
+        "text": "2",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.galery",
+    "pk": 3,
+    "fields": {
+        "image": "gallery-3.jpg",
+        "text": "3",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.galery",
+    "pk": 4,
+    "fields": {
+        "image": "gallery-4.jpg",
+        "text": "4",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.galery",
+    "pk": 5,
+    "fields": {
+        "image": "gallery-5.jpg",
+        "text": "5",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.galery",
+    "pk": 6,
+    "fields": {
+        "image": "gallery-6.jpg",
+        "text": "6",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.galery",
+    "pk": 7,
+    "fields": {
+        "image": "gallery-7.jpg",
+        "text": "7",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.galery",
+    "pk": 8,
+    "fields": {
+        "image": "gallery-8.jpg",
+        "text": "8",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.events",
+    "pk": 1,
+    "fields": {
+        "title": "Супи з риби - це ще те збочення!",
+        "content": "На справді - це називається ВУХА, спробуй - це смачно",
+        "price": 300,
+        "image": "events-2.jpg",
+        "date_start": "2023-04-25",
+        "date_stop": "2023-06-07",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_app.chief",
+    "pk": 1,
+    "fields": {
+        "title": "Василь Петрович Махоров",
+        "position": "головний повар",
+        "content": "Дуже уважна людина, яка має шикарні вуса. Але саме головне, Ви ніколи не знайдети в їжі ані волосинки",
+        "photo": "chefs-1.jpg",
+        "is_visible": true,
+        "date_start": "2023-04-25"
+    }
+},
+{
+    "model": "main_app.chief",
+    "pk": 2,
+    "fields": {
+        "title": "Чорнокнижник Андрій Арменович",
+        "position": "кондитер",
+        "content": "Дуже гарні тістечка.... каже навчився в Амстердамі",
+        "photo": "chefs-3.jpg",
+        "is_visible": true,
+        "date_start": "2023-04-25"
+    }
+},
+{
+    "model": "main_app.chief",
+    "pk": 3,
+    "fields": {
+        "title": "Олена Гарна Васильївна",
+        "position": "цікава",
+        "content": "готовую різне цікаве..... кажуть що дуже добре, сам не пробував, якось боюсь.....",
+        "photo": "chefs-2.jpg",
+        "is_visible": true,
+        "date_start": "2023-04-25"
+    }
+}
+]

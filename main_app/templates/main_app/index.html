@@ -1,0 +1,107 @@
+{% extends 'main_app/base.html' %}
+{% load static %}
+
+{%block mainmenu %}
+    {% for menu_name in menu %}
+        <li class="nav-item">
+            <a class="nav-link {% if forloop.first %} active {% endif %}show" data-bs-toggle="tab" data-bs-target="#{{ menu_name.menu.tab_target }}">
+              <h4>{{ menu_name.menu.title }}</h4>
+            </a>
+        </li><!-- End tab nav item -->
+    {% endfor %}
+{% endblock mainmenu %}
+
+{% block menu_tabs %}
+
+          {% for item in menu %}
+          <div class="tab-pane fade {% if forloop.first %} active show {% endif %}" id="{{ item.menu.tab_target}}">
+
+            <div class="tab-header text-center">
+              <p>Меню</p>
+              <h3>{{ item.menu.title}}</h3>
+            </div>
+
+              <div class="row gy-5">
+                {% for item_d in item.dishes %}
+
+                      <div class="col-lg-4 menu-item"><!--Start  Menu Item -->
+                        <a href="{{ MEDIA_URL }}{{ item_d.photo.url }}" class="glightbox"><img src="{{ MEDIA_URL }}{{ item_d.photo.url }}" " class="menu-img img-fluid" alt=""></a>
+                        <h4>{{ item_d.title }}</h4>
+                        <p class="ingredients">
+                         {{ item_d.content }}
+                        </p>
+                        <p class="price">
+                          {{ item_d.price }} грн.
+                        </p>
+                      </div><!-- Menu Item -->
+
+                {% endfor %}
+              </div>
+          </div>
+           <!-- end div row -->
+        {% endfor %}
+
+{% endblock menu_tabs %}
+
+
+{% block events %}
+{% for i in events %}
+<div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url({{ i.image.url }})">
+              <h3>{{ i.title }}</h3>
+              <div class="price align-self-start">{{ i.price }} грн.</div>
+              <p class="description">
+                {{ i.content }}
+              </p>
+            </div><!-- End Event item -->
+{% endfor %}
+{% endblock events %}
+
+{% block chief %}
+    {% for i in chief %}
+     <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="chef-member">
+              <div class="member-img">
+                  {% if i.photo %}
+                <img src="{{ i.photo.url}}" class="img-fluid" alt="">
+                  {% endif %}
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>{{ i.title }}</h4>
+                <span>{{ i.position }}</span>
+                <p>{{ i.content }}</p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+    {% endfor %}
+{% endblock chief %}
+
+
+{% block galery %}
+     <section id="gallery" class="gallery section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Галерея </h2>
+          <p>Подивись <span>наші фотки</span></p>
+        </div>
+
+        <div class="gallery-slider1 swiper">
+          <div class="swiper-wrapper align-items-center">
+              {% for i in galery %}
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="{{ i.image.urlм}}"><img src="{{ i.image.url}}" class="img-fluid" alt=""></a></div>
+            {% endfor %}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+
+{% endblock galery %}

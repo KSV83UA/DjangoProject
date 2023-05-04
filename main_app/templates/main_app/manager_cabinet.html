@@ -1,0 +1,77 @@
+{% extends 'main_app/manager.html' %}
+{% load static %}
+
+
+
+{% block content %}
+{% if request.user.is_authenticated %}
+    <a href="{% url 'home' %}"  class="bottom-50" >Повернуться до головної сторінки</a><br>
+    <a href="{% url 'logout' %}" class="bottom-50" >Вийти з кабінету</a>
+    <br>
+    <div class="bg-white border rounded-5">
+
+    <section class="w-100 p-4 text-center">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Ім'я</th>
+            <th scope="col">Пошта</th>
+            <th scope="col">Телефон</th>
+            <th scope="col">Дата резервування</th>
+            <th scope="col">Час резервування</th>
+            <th scope="col">Повідомлення</th>
+            <th scope="col">Кількість людей</th>
+            <th scope="col">Статус замовлення</th>
+            <th>Змінити статус</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        {% for i in order %}
+
+            <form method="POST">
+             {% csrf_token %}
+                <input type="hidden" name="pk" value="{{ i.pk }}">
+
+              <tr>
+                <th scope="row">{{ i.pk }}</th>
+                <th>{{ i.name }}</th>
+                <td>{{ i.e_mail }}</td>
+                <td>{{ i.phone }}</td>
+                 <td>{{ i.date }}</td>
+               <td>{{ i.time }}</td>
+               <td>{{ i.message }}</td>
+               <td>
+                   <input type="text" name="count_of_people" value="{{ i.count_of_people }}" class="form-control" placeholder="Кількість людей" required="" id="id_count_of_people">
+               </td>
+                <td>
+                <select name="status" class="form-control" required="" id="id_status" >
+                   {% for status_item in status %}
+                          <option  value="{{status_item.pk}}" {% if status_item.pk == i.status.pk %} selected="" {% endif %} > {{ status_item.title }}</option>
+                       {% endfor %}
+                </select>
+                </td>
+{#              <td>{{ i.count_of_people }}</td>              #}
+{#              <td>{{ i.status }}</td>#}
+{#              <td>#}
+{#                  <select>#}
+{#                      {% for item in status %}#}
+{#                          <option id={{ item.id}}" value="{{item.pk}}">{{ item.title }}</option>#}
+{#                      {% endfor %}#}
+{#                  </select>#}
+{#              {% for fi in form %}#}
+{#                  <td>{{ fi }}</td>#}
+{#                  {% endfor %}#}
+{#              </td>#}
+              <td><input type="submit" value="Змінити"></td>
+              </tr>
+            </form>
+        {% endfor %}
+
+        </tbody>
+      </table>
+    </section>
+    {% endif %}
+{% endblock %}
+
